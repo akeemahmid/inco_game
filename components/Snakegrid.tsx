@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { KeyboardEvent, useEffect, useRef, useState } from "react";
-import milli from "../public/mulll.avif";
+
 import { data } from "../data/data";
 
 const Snakegrid = () => {

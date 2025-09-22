@@ -12,7 +12,7 @@ export const data = [
   {
     id: 3,
     description:
-      "Inco core team includes Silas Davis as VP of Engineering (with distributed systems expertise), Amaury as Principal Engineer, Jim as Engineering Manager, and Nicolas as Head of Apps, plus talent from privacy projects like Monero",
+      "The Inco team is led by founder Remi, with key members including Silas (VP of Engineering), Amaury (Principal Engineer), Jim (Engineering Manager), Nicolas (Head of Apps), Darren (Operations), Theo (Protocol), Nerla (Research), and Adrian Muntele (DevOps Lead), supported by advisors like Rand Hindi (Zama CEO), Andrew Miller (UIUC Professor), Sandeep Nailwal (Polygon Co-founder), Anand Iyer (VC), and Mike Mosier (ex-FinCEN/OFAC).",
   },
   {
     id: 4,

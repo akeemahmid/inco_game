@@ -76,7 +76,7 @@ const Snakegrid = () => {
 
   // Interval movement
   useEffect(() => {
-    const interval = setInterval(moveSnake, 105);
+    const interval = setInterval(moveSnake, 100);
     return () => clearInterval(interval);
   }, [snake, direction]);
 
@@ -159,7 +159,7 @@ const Snakegrid = () => {
                   )
                     ? "bg-[#3673f5] hover:bg-[#4C82F7]"
                     : ""
-                } ${food.x === x && food.y === y ? "bg-green-600" : ""}`}
+                } ${food.x === x && food.y === y ? "bg-[#17D45C]" : ""}`}
               ></div>
             ))}
           </div>
@@ -180,7 +180,7 @@ const Snakegrid = () => {
                   <div className="text-4xl font-bold text-[#EF4444]">
                     Game Over
                   </div>
-                  <h1 className="text-lg font-bold text-[#22C55E]">
+                  <h1 className="text-lg font-bold text-[#17D45C]">
                     Score : {(foodChangeCount - 1) * 2} points
                   </h1>
                 </div>
